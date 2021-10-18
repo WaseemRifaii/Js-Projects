@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@100&display=swap");
+body {
+  padding: 0%;
+  margin: 0%;
+  border-style: none;
+  background: linear-gradient(
+    to right,
+    rgba(70, 67, 65, 0.301),
+    rgb(41, 156, 233)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.window {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 55rem;
+  height: 40rem;
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 0.35);
+  box-shadow: honeydew;
+  overflow: hidden;
+}
+button {
+  width: 100px;
+  height: 50px;
+  border-style: none;
+  border-radius: 10px;
+  backdrop-filter: blur(200 px);
+  background-color: rgba(255, 255, 255, 0.35);
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(41, 156, 233);
+  transition: 0.3s ease;
+}
+h2 {
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+}
+img {
+  height: 120px;
+}
+.btngroup {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.player0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  flex: 50%;
+  padding: 7rem;
+  align-items: center;
+}
+.playertop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.total {
+  text-align: center;
+  font-size: 35px;
+}
+.player1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  flex: 50%;
+  padding: 7rem;
+  align-items: center;
+}
+.playerActive {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.playerbot {
+  display: flex;
+  flex-direction: column;
+  height: 14vh;
+  width: 150px;
+  background-color: rgb(155, 161, 245);
+  border-radius: 25px;
+}
+.rolled {
+  font-size: 20px;
+  text-align: center;
+}
+.current {
+  font-size: 20px;
+  text-align: center;
+}
+.btngroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 150px;
+}
+.lower {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 25%;
+  align-items: center;
+}
+.rollbtn {
+  width: 150px;
+}
+.hidden {
+  display: none;
+}
+.winner {
+  background-color: blueviolet;
+}
